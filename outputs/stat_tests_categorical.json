@@ -1,0 +1,62 @@
+{
+  "gender": {
+    "chi2": 12.564445900133716,
+    "p_value": 0.005679761615198979
+  },
+  "purchase_frequency": {
+    "chi2": 12.046990742080968,
+    "p_value": 0.0170052295640119
+  },
+  "personalized_recommendation_frequency": {
+    "chi2": 17.27746611852304,
+    "p_value": 0.0001771111494891118
+  },
+  "browsing_frequency": {
+    "chi2": 7.370566091739288,
+    "p_value": 0.060979110440085145
+  },
+  "product_search_method": {
+    "chi2": 33.64324815337227,
+    "p_value": 2.3562835064536573e-07
+  },
+  "search_result_exploration": {
+    "chi2": 4.096594871477717,
+    "p_value": 0.0429696720766197
+  },
+  "add_to_cart_browsing": {
+    "chi2": 63.86871482487551,
+    "p_value": 1.3523365707186488e-14
+  },
+  "cart_completion_frequency": {
+    "chi2": 66.66590145780889,
+    "p_value": 1.1465541302754197e-13
+  },
+  "saveforlater_frequency": {
+    "chi2": 26.900462181332678,
+    "p_value": 2.082157844433739e-05
+  },
+  "review_left": {
+    "chi2": 0.16231552701688798,
+    "p_value": 0.6870335535800839
+  },
+  "review_reliability": {
+    "chi2": 73.40825728185949,
+    "p_value": 4.325022555266655e-15
+  },
+  "review_helpfulness": {
+    "chi2": 60.449669949167074,
+    "p_value": 7.473446916585934e-14
+  },
+  "recommendation_helpfulness": {
+    "chi2": 38.378379869157285,
+    "p_value": 4.6370384731559066e-09
+  },
+  "service_appreciation": {
+    "chi2": 67.23473008324063,
+    "p_value": 5.339592197368198e-12
+  },
+  "improvement_areas": {
+    "chi2": 30.16308618516413,
+    "p_value": 0.025192630832767536
+  }
+}

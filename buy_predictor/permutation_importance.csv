@@ -1,0 +1,96 @@
+feature,importance_mean,importance_std
+shopping_satisfaction_num,0.05165289256198348,0.02776601227658239
+customer_reviews_importance_num,0.04793388429752066,0.016652431140173472
+customer_reviews_importance,0.04752066115702479,0.01329397350590531
+shopping_satisfaction,0.04338842975206609,0.022462773429631225
+personalized_recommendation_frequency_1,0.04173553719008262,0.012662440864499637
+rating_accuracy,0.03884297520661155,0.01409811744564626
+rating_accuracy_num,0.03264462809917354,0.012389805248400788
+review_helpfulness_Yes,0.01818181818181816,0.00927683649613375
+timestamp_topic_0,0.01363636363636359,0.003941897526516291
+purchase_categories_topic_0,0.013223140495867753,0.009566807357677874
+recommendation_helpfulness_No,0.013223140495867725,0.004048743376501108
+saveforlater_frequency_num,0.012396694214876009,0.008862649003936867
+review_helpfulness_No,0.012396694214876002,0.006663022932478139
+add_to_cart_browsing_Maybe,0.012396694214875992,0.004889322134793055
+cart_completion_frequency_num,0.011983471074380147,0.008458466731594524
+timestamp_topic_2,0.011570247933884259,0.004048743376501108
+gender_Male,0.010743801652892532,0.006454751798269953
+cart_abandonment_factors_topic_1,0.009090909090909061,0.00578512396694213
+add_to_cart_browsing_No,0.008677685950413194,0.006115144044193673
+saveforlater_frequency_Rarely,0.008677685950413194,0.0031740271685407368
+age,0.008677685950413194,0.005528548826553556
+timestamp_topic_3,0.008264462809917328,0.005843857695756571
+review_reliability_Moderately,0.008264462809917328,0.005226905223418792
+improvement_areas_Shipping speed and reliability,0.008264462809917328,0.002613452611709396
+browsing_frequency_Rarely,0.007851239669421462,0.001801197910553991
+browsing_frequency_Few times a week,0.007851239669421462,0.006650197082409514
+timestamp_topic_5,0.007438016528925595,0.003602395821107982
+purchase_categories_topic_1,0.0066115702479338625,0.007664147516938572
+add_to_cart_browsing_Yes,0.0066115702479338625,0.004958677685950397
+product_search_method_categories,0.0066115702479338625,0.0056052313910125995
+review_helpfulness_Sometimes,0.006198347107437996,0.005144586610739128
+cart_completion_frequency_Often,0.005785123966942129,0.0037872526404593592
+review_reliability_Occasionally,0.005785123966942129,0.005902006965737873
+review_left_Yes,0.005371900826446263,0.003941897526516291
+purchase_frequency_Once a month,0.005371900826446263,0.006002412829063596
+review_left_No,0.005371900826446263,0.003941897526516291
+product_search_method_Keyword,0.005371900826446263,0.005403593731661974
+cart_abandonment_factors_topic_0,0.005371900826446263,0.003941897526516291
+recommendation_helpfulness_Yes,0.004958677685950397,0.004818968508136596
+recommendation_helpfulness_Sometimes,0.0045454545454545305,0.0041115183351513075
+review_reliability_Heavily,0.0045454545454545305,0.0041115183351513075
+personalized_recommendation_frequency_Sometimes,0.004132231404958664,0.004132231404958664
+improvement_areas_Reducing packaging waste,0.0037190082644627974,0.005528548826553556
+personalized_recommendation_frequency_Yes,0.0037190082644627974,0.005528548826553557
+purchase_frequency_Once a week,0.0037190082644627974,0.004871828976260973
+saveforlater_frequency_Sometimes,0.0033057851239669312,0.004048743376501108
+improvement_areas_Customer service responsiveness,0.0028925619834710647,0.003941897526516291
+purchase_frequency_Less than once a month,0.0024793388429751985,0.0037872526404593592
+timestamp_topic_1,0.002066115702479332,0.004431324501968418
+browsing_frequency_Few times a month,0.002066115702479332,0.003578617371010065
+product_search_method_Filter,0.0016528925619834656,0.0033057851239669312
+gender_Prefer not to say,0.0016528925619834656,0.003305785123966931
+search_result_exploration_First page,0.0012396694214875993,0.0029510034828689365
+cart_completion_frequency_Rarely,0.0012396694214875993,0.0029510034828689365
+product_search_method_others,0.0012396694214875993,0.0029510034828689365
+saveforlater_frequency_Always,0.0012396694214875993,0.0029510034828689365
+saveforlater_frequency_Often,0.0012396694214875993,0.0029510034828689365
+saveforlater_frequency_Never,0.0012396694214875993,0.0029510034828689365
+timestamp_topic_4,0.0008264462809917328,0.002479338842975198
+cart_completion_frequency_Always,0.0008264462809917328,0.002479338842975198
+browsing_frequency_Multiple times a day,0.0008264462809917328,0.002479338842975198
+review_reliability_Never,0.0008264462809917328,0.002479338842975198
+service_appreciation_User-friendly website/app interface,0.0004132231404958664,0.001801197910553991
+cart_completion_frequency_Never,0.0004132231404958664,0.001801197910553991
+review_reliability_Rarely,0.0,0.0
+improvement_areas_I don't have any problem with Amazon,0.0,0.0
+improvement_areas_User interface of app,0.0,0.0
+improvement_areas_User interface,0.0,0.0
+improvement_areas_UI,0.0,0.0
+recommendation_helpfulness_num,0.0,0.0
+improvement_areas_Scrolling option would be much better than going to next page,0.0,0.0
+gender_Female,0.0,0.0
+improvement_areas_Quality of product is very poor according to the big offers,0.0,0.0
+improvement_areas_Product quality and accuracy,0.0,0.0
+improvement_areas_Nothing,0.0,0.0
+improvement_areas_No problems with Amazon,0.0,0.0
+improvement_areas_Nil,0.0,0.0
+improvement_areas_Irrelevant product suggestions,0.0,0.0
+improvement_areas_I have no problem with Amazon yet. But others tell me about the refund issues,0.0,0.0
+gender_Others,0.0,0.0
+cart_completion_frequency_Sometimes,0.0,0.0
+improvement_areas_Add more familiar brands to the list,0.0,0.0
+improvement_areas_.,0.0,0.0
+service_appreciation_Wide product selection,0.0,0.0
+purchase_frequency_Few times a month,0.0,0.0
+service_appreciation_Quick delivery,0.0,0.0
+service_appreciation_Customer service,0.0,0.0
+service_appreciation_Competitive prices,0.0,0.0
+service_appreciation_All the above,0.0,0.0
+service_appreciation_.,0.0,0.0
+purchase_frequency_Multiple times a week,0.0,0.0
+personalized_recommendation_frequency_No,0.0,0.0
+search_result_exploration_Multiple pages,0.0,0.0
+improvement_areas_better app interface and lower shipping charges,0.0,0.0
+service_appreciation_Product recommendations,-0.001652892561983471,0.006714081326145412

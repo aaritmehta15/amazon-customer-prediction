@@ -1,0 +1,46 @@
+{
+  "rating_accuracy_num": {
+    "f_stat": 277.4288301594576,
+    "p_value": 1.7497346636912427e-51
+  },
+  "customer_reviews_importance_num": {
+    "f_stat": 277.8662960168269,
+    "p_value": 1.5059068848131827e-51
+  },
+  "recommendation_helpfulness_num": {
+    "f_stat": NaN,
+    "p_value": NaN
+  },
+  "shopping_satisfaction_num": {
+    "f_stat": 540.7057689529518,
+    "p_value": 9.2742039748382e-86
+  },
+  "saveforlater_frequency_num": {
+    "f_stat": 9.109287211833106,
+    "p_value": 0.0026510423480576835
+  },
+  "cart_completion_frequency_num": {
+    "f_stat": 69.02383703871331,
+    "p_value": 6.497439480411555e-16
+  },
+  "age": {
+    "f_stat": 0.4029655979941434,
+    "p_value": 0.5258036388776781
+  },
+  "customer_reviews_importance": {
+    "f_stat": 277.8662960168269,
+    "p_value": 1.5059068848131827e-51
+  },
+  "personalized_recommendation_frequency_1": {
+    "f_stat": 201.39918302373738,
+    "p_value": 1.2622989592916e-39
+  },
+  "rating_accuracy": {
+    "f_stat": 277.4288301594576,
+    "p_value": 1.7497346636912427e-51
+  },
+  "shopping_satisfaction": {
+    "f_stat": 540.7057689529518,
+    "p_value": 9.2742039748382e-86
+  }
+}

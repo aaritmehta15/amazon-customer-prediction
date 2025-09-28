@@ -1,0 +1,578 @@
+<h1>Amazon Customer Behavior — Automated Report</h1>
+<p>Generated on 2025-09-24T15:58:15.100258 UTC</p>
+<h2>Data Overview</h2>
+<table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>timestamp</th>
+      <th>age</th>
+      <th>gender</th>
+      <th>purchase_frequency</th>
+      <th>purchase_categories</th>
+      <th>personalized_recommendation_frequency</th>
+      <th>browsing_frequency</th>
+      <th>product_search_method</th>
+      <th>search_result_exploration</th>
+      <th>customer_reviews_importance</th>
+      <th>add_to_cart_browsing</th>
+      <th>cart_completion_frequency</th>
+      <th>cart_abandonment_factors</th>
+      <th>saveforlater_frequency</th>
+      <th>review_left</th>
+      <th>review_reliability</th>
+      <th>review_helpfulness</th>
+      <th>personalized_recommendation_frequency_1</th>
+      <th>recommendation_helpfulness</th>
+      <th>rating_accuracy</th>
+      <th>shopping_satisfaction</th>
+      <th>service_appreciation</th>
+      <th>improvement_areas</th>
+      <th>rating_accuracy_num</th>
+      <th>customer_reviews_importance_num</th>
+      <th>recommendation_helpfulness_num</th>
+      <th>shopping_satisfaction_num</th>
+      <th>saveforlater_frequency_num</th>
+      <th>cart_completion_frequency_num</th>
+      <th>timestamp_parsed</th>
+      <th>ts_year</th>
+      <th>ts_month</th>
+      <th>ts_day</th>
+      <th>ts_hour</th>
+      <th>ts_weekday</th>
+      <th>timestamp_topic_0</th>
+      <th>timestamp_topic_1</th>
+      <th>timestamp_topic_2</th>
+      <th>timestamp_topic_3</th>
+      <th>timestamp_topic_4</th>
+      <th>timestamp_topic_5</th>
+      <th>purchase_categories_topic_0</th>
+      <th>purchase_categories_topic_1</th>
+      <th>cart_abandonment_factors_topic_0</th>
+      <th>cart_abandonment_factors_topic_1</th>
+      <th>cluster_kmeans</th>
+      <th>cluster_dbscan</th>
+      <th>cluster_agg</th>
+      <th>cluster_gmm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023/06/04 1:28:19 PM GMT+5:30</td>
+      <td>23</td>
+      <td>Female</td>
+      <td>Few times a month</td>
+      <td>Beauty and Personal Care</td>
+      <td>Yes</td>
+      <td>Few times a week</td>
+      <td>Keyword</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Sometimes</td>
+      <td>Found a better price elsewhere</td>
+      <td>Sometimes</td>
+      <td>Yes</td>
+      <td>Occasionally</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Competitive prices</td>
+      <td>Reducing packaging waste</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>2023-06-04 13:28:19-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>13</td>
+      <td>6</td>
+      <td>0.832335</td>
+      <td>0.033425</td>
+      <td>0.033433</td>
+      <td>0.033475</td>
+      <td>0.033766</td>
+      <td>0.033566</td>
+      <td>0.127354</td>
+      <td>0.872646</td>
+      <td>0.166682</td>
+      <td>0.833318</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 2:30:44 PM GMT+5:30</td>
+      <td>23</td>
+      <td>Female</td>
+      <td>Once a month</td>
+      <td>Clothing and Fashion</td>
+      <td>Yes</td>
+      <td>Few times a month</td>
+      <td>Keyword</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Often</td>
+      <td>High shipping costs</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>Sometimes</td>
+      <td>3</td>
+      <td>2</td>
+      <td>Wide product selection</td>
+      <td>Reducing packaging waste</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>4.0</td>
+      <td>2023-06-04 14:30:44-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>14</td>
+      <td>6</td>
+      <td>0.789849</td>
+      <td>0.041884</td>
+      <td>0.041839</td>
+      <td>0.041913</td>
+      <td>0.042443</td>
+      <td>0.042072</td>
+      <td>0.180123</td>
+      <td>0.819877</td>
+      <td>0.125043</td>
+      <td>0.874957</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 5:04:56 PM GMT+5:30</td>
+      <td>24</td>
+      <td>Prefer not to say</td>
+      <td>Few times a month</td>
+      <td>Groceries and Gourmet Food;Clothing and Fashion</td>
+      <td>No</td>
+      <td>Few times a month</td>
+      <td>Keyword</td>
+      <td>Multiple pages</td>
+      <td>2</td>
+      <td>Yes</td>
+      <td>Sometimes</td>
+      <td>Found a better price elsewhere</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Occasionally</td>
+      <td>No</td>
+      <td>4</td>
+      <td>No</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Competitive prices</td>
+      <td>Product quality and accuracy</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>2023-06-04 17:04:56-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>17</td>
+      <td>6</td>
+      <td>0.033555</td>
+      <td>0.033425</td>
+      <td>0.033541</td>
+      <td>0.340269</td>
+      <td>0.525626</td>
+      <td>0.033585</td>
+      <td>0.735345</td>
+      <td>0.264655</td>
+      <td>0.166682</td>
+      <td>0.833318</td>
+      <td>0</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 5:13:00 PM GMT+5:30</td>
+      <td>24</td>
+      <td>Female</td>
+      <td>Once a month</td>
+      <td>Beauty and Personal Care;Clothing and Fashion;others</td>
+      <td>Sometimes</td>
+      <td>Few times a month</td>
+      <td>Keyword</td>
+      <td>First page</td>
+      <td>5</td>
+      <td>Maybe</td>
+      <td>Sometimes</td>
+      <td>Found a better price elsewhere</td>
+      <td>Sometimes</td>
+      <td>Yes</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>3</td>
+      <td>Sometimes</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Competitive prices</td>
+      <td>Product quality and accuracy</td>
+      <td>3.0</td>
+      <td>5.0</td>
+      <td>3.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>2023-06-04 17:13:00-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>17</td>
+      <td>6</td>
+      <td>0.832045</td>
+      <td>0.033410</td>
+      <td>0.033740</td>
+      <td>0.033475</td>
+      <td>0.033764</td>
+      <td>0.033566</td>
+      <td>0.086816</td>
+      <td>0.913184</td>
+      <td>0.166682</td>
+      <td>0.833318</td>
+      <td>0</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 5:28:06 PM GMT+5:30</td>
+      <td>22</td>
+      <td>Female</td>
+      <td>Less than once a month</td>
+      <td>Beauty and Personal Care;Clothing and Fashion</td>
+      <td>Yes</td>
+      <td>Few times a month</td>
+      <td>Filter</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Sometimes</td>
+      <td>High shipping costs</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>4</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Competitive prices</td>
+      <td>Product quality and accuracy</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>2023-06-04 17:28:06-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>17</td>
+      <td>6</td>
+      <td>0.789880</td>
+      <td>0.041798</td>
+      <td>0.041839</td>
+      <td>0.041913</td>
+      <td>0.042498</td>
+      <td>0.042073</td>
+      <td>0.086816</td>
+      <td>0.913184</td>
+      <td>0.125043</td>
+      <td>0.874957</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 6:01:59 PM GMT+5:30</td>
+      <td>21</td>
+      <td>Female</td>
+      <td>Less than once a month</td>
+      <td>Clothing and Fashion</td>
+      <td>No</td>
+      <td>Rarely</td>
+      <td>categories</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Rarely</td>
+      <td>Changed my mind or no longer need the item</td>
+      <td>Never</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>5</td>
+      <td>No</td>
+      <td>5</td>
+      <td>2</td>
+      <td>Wide product selection</td>
+      <td>Product quality and accuracy</td>
+      <td>5.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>2023-06-04 18:01:59-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>18</td>
+      <td>6</td>
+      <td>0.033472</td>
+      <td>0.033415</td>
+      <td>0.033441</td>
+      <td>0.033509</td>
+      <td>0.832679</td>
+      <td>0.033483</td>
+      <td>0.180123</td>
+      <td>0.819877</td>
+      <td>0.916643</td>
+      <td>0.083357</td>
+      <td>0</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 6:31:41 PM GMT+5:30</td>
+      <td>22</td>
+      <td>Female</td>
+      <td>Less than once a month</td>
+      <td>Clothing and Fashion</td>
+      <td>No</td>
+      <td>Rarely</td>
+      <td>Filter</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Often</td>
+      <td>High shipping costs</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>3</td>
+      <td>Sometimes</td>
+      <td>3</td>
+      <td>3</td>
+      <td>Wide product selection</td>
+      <td>Shipping speed and reliability</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>4.0</td>
+      <td>2023-06-04 18:31:41-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>18</td>
+      <td>6</td>
+      <td>0.033472</td>
+      <td>0.033416</td>
+      <td>0.033979</td>
+      <td>0.033444</td>
+      <td>0.832208</td>
+      <td>0.033482</td>
+      <td>0.180123</td>
+      <td>0.819877</td>
+      <td>0.125043</td>
+      <td>0.874957</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 7:13:12 PM GMT+5:30</td>
+      <td>21</td>
+      <td>Female</td>
+      <td>Few times a month</td>
+      <td>Beauty and Personal Care;Clothing and Fashion</td>
+      <td>No</td>
+      <td>Rarely</td>
+      <td>Keyword</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Often</td>
+      <td>Found a better price elsewhere</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Sometimes</td>
+      <td>3</td>
+      <td>Sometimes</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Competitive prices</td>
+      <td>Shipping speed and reliability</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>3.0</td>
+      <td>3.0</td>
+      <td>2.0</td>
+      <td>4.0</td>
+      <td>2023-06-04 19:13:12-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>19</td>
+      <td>6</td>
+      <td>0.033635</td>
+      <td>0.033417</td>
+      <td>0.578798</td>
+      <td>0.033549</td>
+      <td>0.286927</td>
+      <td>0.033674</td>
+      <td>0.086816</td>
+      <td>0.913184</td>
+      <td>0.166682</td>
+      <td>0.833318</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 7:23:21 PM GMT+5:30</td>
+      <td>20</td>
+      <td>Female</td>
+      <td>Less than once a month</td>
+      <td>Beauty and Personal Care;Clothing and Fashion</td>
+      <td>Sometimes</td>
+      <td>Few times a month</td>
+      <td>Keyword</td>
+      <td>First page</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Sometimes</td>
+      <td>Changed my mind or no longer need the item</td>
+      <td>Often</td>
+      <td>No</td>
+      <td>Moderately</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Wide product selection</td>
+      <td>Reducing packaging waste</td>
+      <td>2.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>4.0</td>
+      <td>3.0</td>
+      <td>2023-06-04 19:23:21-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>19</td>
+      <td>6</td>
+      <td>0.033499</td>
+      <td>0.033424</td>
+      <td>0.033624</td>
+      <td>0.309945</td>
+      <td>0.555994</td>
+      <td>0.033514</td>
+      <td>0.086816</td>
+      <td>0.913184</td>
+      <td>0.916643</td>
+      <td>0.083357</td>
+      <td>1</td>
+      <td>-1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2023/06/04 7:33:12 PM GMT+5:30</td>
+      <td>23</td>
+      <td>Female</td>
+      <td>Less than once a month</td>
+      <td>Beauty and Personal Care;Clothing and Fashion</td>
+      <td>No</td>
+      <td>Rarely</td>
+      <td>Keyword</td>
+      <td>Multiple pages</td>
+      <td>1</td>
+      <td>Yes</td>
+      <td>Rarely</td>
+      <td>Found a better price elsewhere</td>
+      <td>Rarely</td>
+      <td>No</td>
+      <td>Heavily</td>
+      <td>Yes</td>
+      <td>3</td>
+      <td>Yes</td>
+      <td>3</td>
+      <td>4</td>
+      <td>Wide product selection</td>
+      <td>Product quality and accuracy</td>
+      <td>3.0</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+      <td>2.0</td>
+      <td>2.0</td>
+      <td>2023-06-04 19:33:12-05:30</td>
+      <td>2023</td>
+      <td>6</td>
+      <td>4</td>
+      <td>19</td>
+      <td>6</td>
+      <td>0.033634</td>
+      <td>0.033420</td>
+      <td>0.033763</td>
+      <td>0.831225</td>
+      <td>0.034119</td>
+      <td>0.033838</td>
+      <td>0.086816</td>
+      <td>0.913184</td>
+      <td>0.166682</td>
+      <td>0.833318</td>
+      <td>0</td>
+      <td>-1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Clustering Summary</h2>
+<h3>Elbow & Silhouette</h3>
+<img src="elbow.png" width="600"><br>
+<img src="silhouette.png" width="600"><br>
+<h3>PCA Clusters</h3>
+<img src="pca_clusters.png" width="700"><br>
+<h3>Top Feature Importances (Permutation)</h3>
+<img src="perm_importance.png" width="700"><br>

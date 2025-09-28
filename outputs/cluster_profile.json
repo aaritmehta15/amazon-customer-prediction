@@ -1,0 +1,24 @@
+{
+  "0": {
+    "count": 303,
+    "age_mean": 31.05280528052805,
+    "top_purchase_categories": {
+      "Beauty and Personal Care": 81,
+      "Clothing and Fashion": 68,
+      "others": 25,
+      "Beauty and Personal Care;Clothing and Fashion": 22,
+      "Beauty and Personal Care;Clothing and Fashion;Home and Kitchen": 14
+    }
+  },
+  "1": {
+    "count": 299,
+    "age_mean": 30.525083612040135,
+    "top_purchase_categories": {
+      "Clothing and Fashion": 38,
+      "Beauty and Personal Care;Clothing and Fashion;Home and Kitchen": 28,
+      "Beauty and Personal Care": 25,
+      "Beauty and Personal Care;Clothing and Fashion": 24,
+      "Groceries and Gourmet Food;Beauty and Personal Care;Clothing and Fashion;Home and Kitchen;others": 23
+    }
+  }
+}

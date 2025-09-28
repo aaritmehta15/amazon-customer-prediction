@@ -1,0 +1,356 @@
+{
+  "timestamp": {
+    "sample_values": [
+      "2023/06/07 11:47:44 AM GMT+5:30",
+      "2023/06/04 1:28:19 PM GMT+5:30",
+      "2023/06/08 6:00:06 PM GMT+5:30",
+      "2023/06/08 6:00:50 PM GMT+5:30",
+      "2023/06/08 6:01:31 PM GMT+5:30",
+      "2023/06/08 6:01:33 PM GMT+5:30",
+      "2023/06/08 6:39:59 PM GMT+5:30",
+      "2023/06/08 7:46:31 PM GMT+5:30",
+      "2023/06/08 7:50:55 PM GMT+5:30",
+      "2023/06/08 8:26:58 PM GMT+5:30",
+      "2023/06/08 9:17:38 PM GMT+5:30",
+      "2023/06/08 9:39:30 PM GMT+5:30",
+      "2023/06/08 9:39:55 PM GMT+5:30",
+      "2023/06/08 9:40:24 PM GMT+5:30",
+      "2023/06/08 9:40:50 PM GMT+5:30",
+      "2023/06/08 10:13:41 PM GMT+5:30",
+      "2023/06/08 10:21:20 PM GMT+5:30",
+      "2023/06/08 6:00:20 PM GMT+5:30",
+      "2023/06/08 5:59:25 PM GMT+5:30",
+      "2023/06/08 10:38:16 PM GMT+5:30",
+      "2023/06/08 5:59:20 PM GMT+5:30",
+      "2023/06/08 5:48:14 PM GMT+5:30",
+      "2023/06/08 5:48:55 PM GMT+5:30",
+      "2023/06/08 5:49:56 PM GMT+5:30",
+      "2023/06/08 5:49:59 PM GMT+5:30",
+      "2023/06/08 5:52:26 PM GMT+5:30",
+      "2023/06/08 5:52:44 PM GMT+5:30",
+      "2023/06/08 5:53:11 PM GMT+5:30",
+      "2023/06/08 5:54:05 PM GMT+5:30",
+      "2023/06/08 5:54:49 PM GMT+5:30",
+      "2023/06/08 5:55:15 PM GMT+5:30",
+      "2023/06/08 5:55:54 PM GMT+5:30",
+      "2023/06/08 5:57:03 PM GMT+5:30",
+      "2023/06/08 5:57:34 PM GMT+5:30",
+      "2023/06/08 5:58:03 PM GMT+5:30",
+      "2023/06/08 5:58:43 PM GMT+5:30",
+      "2023/06/08 10:24:19 PM GMT+5:30",
+      "2023/06/08 10:38:51 PM GMT+5:30",
+      "2023/06/09 2:23:45 PM GMT+5:30",
+      "2023/06/09 10:22:35 AM GMT+5:30"
+    ],
+    "suggestion": null
+  },
+  "age": {
+    "sample_values": [
+      "23",
+      "34",
+      "24",
+      "25",
+      "45",
+      "21",
+      "26",
+      "32",
+      "22",
+      "27",
+      "36",
+      "35",
+      "37",
+      "46",
+      "40",
+      "31",
+      "28",
+      "29",
+      "30",
+      "56",
+      "33",
+      "18",
+      "47",
+      "54",
+      "43",
+      "50",
+      "44",
+      "20",
+      "16",
+      "38",
+      "41",
+      "19",
+      "39",
+      "17",
+      "42",
+      "48",
+      "60",
+      "67",
+      "15",
+      "57"
+    ],
+    "suggestion": {
+      "type": "numeric",
+      "coerce": true
+    }
+  },
+  "gender": {
+    "sample_values": [
+      "Female",
+      "Male",
+      "Prefer not to say",
+      "Others"
+    ],
+    "suggestion": null
+  },
+  "purchase_frequency": {
+    "sample_values": [
+      "Few times a month",
+      "Less than once a month",
+      "Once a week",
+      "Once a month",
+      "Multiple times a week"
+    ],
+    "suggestion": null
+  },
+  "purchase_categories": {
+    "sample_values": [
+      "Beauty and Personal Care",
+      "Clothing and Fashion",
+      "others",
+      "Beauty and Personal Care;Clothing and Fashion",
+      "Beauty and Personal Care;Clothing and Fashion;Home and Kitchen",
+      "Groceries and Gourmet Food;Beauty and Personal Care;Clothing and Fashion;Home and Kitchen;others",
+      "Clothing and Fashion;Home and Kitchen",
+      "Home and Kitchen",
+      "Beauty and Personal Care;Home and Kitchen",
+      "Clothing and Fashion;Home and Kitchen;others",
+      "Clothing and Fashion;others",
+      "Groceries and Gourmet Food",
+      "Groceries and Gourmet Food;Beauty and Personal Care;Clothing and Fashion;Home and Kitchen",
+      "Beauty and Personal Care;Clothing and Fashion;others",
+      "Groceries and Gourmet Food;Beauty and Personal Care;Clothing and Fashion",
+      "Home and Kitchen;others",
+      "Beauty and Personal Care;Clothing and Fashion;Home and Kitchen;others",
+      "Beauty and Personal Care;others",
+      "Groceries and Gourmet Food;Beauty and Personal Care",
+      "Groceries and Gourmet Food;Home and Kitchen;others",
+      "Groceries and Gourmet Food;Clothing and Fashion",
+      "Groceries and Gourmet Food;Home and Kitchen",
+      "Beauty and Personal Care;Home and Kitchen;others",
+      "Groceries and Gourmet Food;Beauty and Personal Care;Home and Kitchen",
+      "Groceries and Gourmet Food;Clothing and Fashion;Home and Kitchen",
+      "Groceries and Gourmet Food;Clothing and Fashion;Home and Kitchen;others",
+      "Groceries and Gourmet Food;Beauty and Personal Care;others",
+      "Groceries and Gourmet Food;Clothing and Fashion;others",
+      "Groceries and Gourmet Food;Beauty and Personal Care;Clothing and Fashion;others"
+    ],
+    "suggestion": null
+  },
+  "personalized_recommendation_frequency": {
+    "sample_values": [
+      "No",
+      "Sometimes",
+      "Yes"
+    ],
+    "suggestion": null
+  },
+  "browsing_frequency": {
+    "sample_values": [
+      "Few times a week",
+      "Few times a month",
+      "Rarely",
+      "Multiple times a day"
+    ],
+    "suggestion": null
+  },
+  "product_search_method": {
+    "sample_values": [
+      "categories",
+      "Keyword",
+      "Filter",
+      "others"
+    ],
+    "suggestion": null
+  },
+  "search_result_exploration": {
+    "sample_values": [
+      "Multiple pages",
+      "First page"
+    ],
+    "suggestion": null
+  },
+  "customer_reviews_importance": {
+    "sample_values": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "suggestion": {
+      "type": "numeric",
+      "coerce": true
+    }
+  },
+  "add_to_cart_browsing": {
+    "sample_values": [
+      "Maybe",
+      "Yes",
+      "No"
+    ],
+    "suggestion": {
+      "map": {
+        "yes": 1,
+        "no": 0,
+        "true": 1,
+        "false": 0,
+        "maybe": NaN
+      }
+    }
+  },
+  "cart_completion_frequency": {
+    "sample_values": [
+      "Sometimes",
+      "Often",
+      "Rarely",
+      "Always",
+      "Never"
+    ],
+    "suggestion": null
+  },
+  "cart_abandonment_factors": {
+    "sample_values": [
+      "Found a better price elsewhere",
+      "Changed my mind or no longer need the item",
+      "High shipping costs",
+      "others"
+    ],
+    "suggestion": null
+  },
+  "saveforlater_frequency": {
+    "sample_values": [
+      "Sometimes",
+      "Often",
+      "Rarely",
+      "Never",
+      "Always"
+    ],
+    "suggestion": null
+  },
+  "review_left": {
+    "sample_values": [
+      "Yes",
+      "No"
+    ],
+    "suggestion": {
+      "map": {
+        "yes": 1,
+        "no": 0,
+        "true": 1,
+        "false": 0,
+        "maybe": NaN
+      }
+    }
+  },
+  "review_reliability": {
+    "sample_values": [
+      "Moderately",
+      "Occasionally",
+      "Heavily",
+      "Rarely",
+      "Never"
+    ],
+    "suggestion": null
+  },
+  "review_helpfulness": {
+    "sample_values": [
+      "Yes",
+      "Sometimes",
+      "No"
+    ],
+    "suggestion": null
+  },
+  "personalized_recommendation_frequency_1": {
+    "sample_values": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "suggestion": {
+      "type": "numeric",
+      "coerce": true
+    }
+  },
+  "recommendation_helpfulness": {
+    "sample_values": [
+      "Sometimes",
+      "No",
+      "Yes"
+    ],
+    "suggestion": null
+  },
+  "rating_accuracy": {
+    "sample_values": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "suggestion": {
+      "type": "numeric",
+      "coerce": true
+    }
+  },
+  "shopping_satisfaction": {
+    "sample_values": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "suggestion": {
+      "type": "numeric",
+      "coerce": true
+    }
+  },
+  "service_appreciation": {
+    "sample_values": [
+      "Product recommendations",
+      "Competitive prices",
+      "Wide product selection",
+      "User-friendly website/app interface",
+      ".",
+      "Customer service ",
+      "Customer service",
+      "Quick delivery",
+      "All the above"
+    ],
+    "suggestion": null
+  },
+  "improvement_areas": {
+    "sample_values": [
+      "Customer service responsiveness",
+      "Product quality and accuracy",
+      "Reducing packaging waste",
+      "Shipping speed and reliability",
+      "Quality of product is very poor according to the big offers",
+      "I don't have any problem with Amazon",
+      "User interface of app",
+      "Irrelevant product suggestions",
+      "User interface ",
+      "I have no problem with Amazon yet. But others tell me about the refund issues ",
+      "UI",
+      "Scrolling option would be much better than going to next page",
+      "Add more familiar brands to the list",
+      "Nil",
+      "better app interface and lower shipping charges",
+      "Nothing",
+      ".",
+      "No problems with Amazon"
+    ],
+    "suggestion": null
+  }
+}
