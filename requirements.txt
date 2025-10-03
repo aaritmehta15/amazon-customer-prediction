@@ -1,23 +1,15 @@
-# Core dependencies
+# Core data analysis
 numpy>=1.21.0
 pandas>=1.3.0
 scikit-learn>=1.0.0
-lightgbm>=3.3.0
-joblib>=1.0.0
 
-# For visualization (optional, used in analysis)
+# Data visualization
 matplotlib>=3.4.0
 seaborn>=0.11.0
 
-# For Jupyter notebook (optional, if you want to run the analysis notebook)
-# jupyter>=1.0.0
-# ipykernel>=6.0.0
-
-# For model serving (optional, if you want to create an API)
-# flask>=2.0.0
-# gunicorn>=20.0.0
-
-# Development tools (optional)
+# Jupyter notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
 # pylint>=2.12.0
 # black>=22.0.0
 # pytest>=6.2.0

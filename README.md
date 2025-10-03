@@ -1,94 +1,62 @@
-# Amazon Customer Purchase Prediction
+# Amazon Customer Segmentation Analysis
 
-This project analyzes customer behavior from Amazon purchase data to predict the likelihood of future purchases. It includes data preprocessing, exploratory analysis, clustering of customer segments, and a predictive model for purchase intent.
+![Clustering Visualization](outputs/pca_clusters.png)
+
+## Project Overview
+This project performs customer segmentation on Amazon customer data using K-means clustering with PCA. The analysis reveals distinct customer segments based on shopping behavior, preferences, and demographics.
+
+## Key Findings
+
+### Optimal Clusters
+- **Number of Clusters**: 2 (determined by elbow method and silhouette analysis)
+- **Silhouette Score**: 0.094
+- **Davies-Bouldin Index**: 2.91
+- **Calinski-Harabasz Index**: 69.49
+
+### Cluster Sizes
+| Cluster | Customers | Percentage |
+|---------|-----------|------------|
+| 0       | 303       | 50.3%      |
+| 1       | 299       | 49.7%      |
+
+### Cluster Characteristics
+- **Cluster 0**: Slightly older (avg. age 31.1) with preference for Beauty and Personal Care products
+- **Cluster 1**: Slightly younger (avg. age 30.5) with more diverse category preferences
 
 ## Project Structure
-
 ```
 ML MINI PROJ/
-├── buy_predictor/           # Prediction module
-│   ├── buy_predictor.py     # Main training script
-│   ├── buy_predictor_cli.py # Interactive prediction tool
-│   ├── buy_predictor_test.py# File-based prediction tool
-│   └── README.md            # Module-specific documentation
-├── outputs/                 # Analysis outputs and artifacts
-│   ├── clustering_results_summary.json
-│   ├── cleaned_pre_imputation.csv
-│   └── permutation_importance.csv
-├── RUNBOOK.md              # Detailed how-to guide
-├── RESULTS.md              # Analysis and model results
-└── DATA_DICTIONARY.md      # Feature documentation
+├── outputs/                 # Analysis outputs
+│   ├── pca_clusters.png     # 2D visualization of clusters
+│   ├── elbow.png           # Elbow method plot
+│   ├── silhouette.png      # Silhouette analysis
+│   └── clustering_results_summary.json  # Complete metrics
+├── clustering-amazon-customers-pca-k-means.ipynb  # Main analysis
+└── requirements.txt         # Dependencies
 ```
 
-## Prerequisites
-
-- **Git** (for cloning the repository)
-  - Download: [git-scm.com](https://git-scm.com/downloads)
-- **Python 3.8 or later**
-  - Download: [python.org/downloads](https://www.python.org/downloads/)
-  - During installation, check "Add Python to PATH"
-- **pip** (Python package manager)
-  - Usually comes with Python installation
-
-## Quick Start
+## Getting Started
 
 1. **Setup Environment**
    ```bash
-   # Create and activate virtual environment
    python -m venv .venv
-   .\.venv\Scripts\activate
-   
-   # Install dependencies
-   pip install numpy pandas scikit-learn lightgbm joblib
+   \.venv\Scripts\activate
+   pip install -r requirements.txt
    ```
 
-2. **Train Model**
-   ```bash
-   python buy_predictor\buy_predictor.py
-   ```
+2. **Run the Analysis**
+   Open and execute `clustering-amazon-customers-pca-k-means.ipynb` in Jupyter Notebook.
 
-3. **Make Predictions**
-   - Interactive mode:
-     ```bash
-     python buy_predictor\buy_predictor_cli.py
-     ```
-   - File-based mode:
-     ```bash
-     python buy_predictor\buy_predictor_test.py --input-csv your_data.csv
-     ```
-
-## Documentation
-
-- [RUNBOOK.md](RUNBOOK.md): Complete guide to running and using the project
-- [RESULTS.md](RESULTS.md): Analysis of model performance and findings
-- [DATA_DICTIONARY.md](DATA_DICTIONARY.md): Detailed description of all features
-- [buy_predictor/README.md](buy_predictor/README.md): Prediction module documentation
-
-## Key Features
-
-- Customer segmentation using K-means clustering
-- Purchase prediction using LightGBM and SVC models
-- Interactive CLI for real-time predictions
-- Comprehensive model evaluation metrics
-
-## Core Dependencies
-
-- numpy
+## Dependencies
+- Python 3.8+
 - pandas
 - scikit-learn
-- lightgbm
-- joblib
+- matplotlib
+- seaborn
+- jupyter
 
-Install all dependencies with:
-```bash
-pip install numpy pandas scikit-learn lightgbm joblib
-```
-
-Or create a `requirements.txt` file and use:
-```bash
-pip install -r requirements.txt
-```
+## Results
+Detailed analysis and visualizations are available in the `outputs` directory and the Jupyter notebook.
 
 ## License
-
-This project is for educational purposes.
+Educational use only.

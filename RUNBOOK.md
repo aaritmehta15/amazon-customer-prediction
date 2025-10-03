@@ -1,17 +1,10 @@
-# Amazon Customer Prediction - Runbook
-
-This guide provides detailed instructions for setting up and using the Amazon Customer Prediction system.
+# Amazon Customer Segmentation - Runbook
 
 ## Table of Contents
 - [Environment Setup](#environment-setup)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Running the Model](#running-the-model)
-  - [Training the Model](#training-the-model)
-  - [Making Predictions](#making-predictions)
-    - [Interactive CLI](#interactive-cli)
-    - [File-based Prediction](#file-based-prediction)
-- [Understanding the Outputs](#understanding-the-outputs)
+- [Running the Analysis](#running-the-analysis)
+- [Output Files](#output-files)
+- [Interpreting Results](#interpreting-results)
 - [Troubleshooting](#troubleshooting)
 
 ## Environment Setup
@@ -19,35 +12,88 @@ This guide provides detailed instructions for setting up and using the Amazon Cu
 ### Prerequisites
 - Python 3.8 or later
 - pip (Python package manager)
-- Git (for cloning the repository)
+- Jupyter Notebook
 
 ### Installation
 
-1. **Clone the repository** (if not already done):
+1. **Create and activate a virtual environment**:
    ```bash
-   git clone <repository-url>
-   cd ML-MINI-PROJ
-   ```
-
-2. **Create and activate a virtual environment**:
-   ```bash
-   # Windows
    python -m venv .venv
    .\.venv\Scripts\activate
-   
-   # macOS/Linux
-   python3 -m venv .venv
-   source .venv/bin/activate
    ```
 
-3. **Install dependencies**:
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running the Model
+## Running the Analysis
 
-### Training the Model
+1. **Launch Jupyter Notebook**:
+   ```bash
+   jupyter notebook
+   ```
+
+2. **Open and run the notebook**:
+   - Navigate to `clustering-amazon-customers-pca-k-means.ipynb`
+   - Run all cells (Kernel > Restart & Run All)
+
+## Output Files
+
+### Visualizations
+- `outputs/elbow.png`: Elbow method plot showing optimal number of clusters (2)
+- `outputs/silhouette.png`: Silhouette analysis for cluster validation
+- `outputs/pca_clusters.png`: 2D visualization of customer segments
+
+### Data Files
+- `outputs/cleaned_pre_imputation.csv`: Preprocessed dataset
+- `outputs/amazon_customers_annotated.csv`: Dataset with cluster assignments
+
+### Analysis Results
+- `outputs/clustering_results_summary.json`: Complete clustering metrics
+- `outputs/cluster_profile.json`: Detailed cluster characteristics
+- `outputs/stat_tests_*.json`: Statistical test results for cluster differences
+
+## Interpreting Results
+
+### Cluster 0 (50.3% of customers)
+- **Average Age**: 31.1 years
+- **Top Categories**:
+  - Beauty and Personal Care (26.7%)
+  - Clothing and Fashion (22.4%)
+  - Combination categories (20.1%)
+
+### Cluster 1 (49.7% of customers)
+- **Average Age**: 30.5 years
+- **Top Categories**:
+  - More diverse category preferences
+  - Higher preference for multi-category purchases
+  - Stronger preference for bundled purchases
+
+### Key Differences (p < 0.05)
+1. **Shopping Satisfaction**: Significant difference between clusters
+2. **Customer Reviews Importance**: Notable variation
+3. **Rating Accuracy**: Statistically significant difference
+4. **Age**: Not a significant differentiator (p = 0.53)
+
+## Troubleshooting
+
+### Common Issues
+1. **Missing Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Kernel Issues**:
+   - Restart kernel if cells don't execute
+   - Clear all outputs and restart if needed
+
+3. **File Not Found**:
+   - Ensure working directory is set to project root
+   - Check file paths in the notebook
+
+### Getting Help
+For additional assistance, please refer to the Jupyter notebook documentation or open an issue in the project repository.
 
 1. **Navigate to the project directory**:
    ```bash

@@ -1,63 +1,95 @@
-# Amazon Customer Prediction - Results Analysis
+# Amazon Customer Segmentation - Analysis Results
 
-This document provides a comprehensive analysis of the model's performance, key findings, and insights derived from the Amazon customer behavior dataset.
+## Executive Summary
+This analysis segments Amazon customers into distinct groups based on shopping behavior and preferences using K-means clustering with PCA. The optimal number of clusters was determined to be 2, providing meaningful segmentation while maintaining interpretability.
 
-## Model Performance Summary
+## Clustering Performance
 
-### Evaluation Metrics
+### Model Evaluation Metrics
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Silhouette Score | 0.094 | Slight separation between clusters |
+| Davies-Bouldin Index | 2.91 | Lower values indicate better separation |
+| Calinski-Harabasz Index | 69.49 | Higher values indicate better defined clusters |
 
-| Model   | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|---------|----------|-----------|--------|----------|---------|
-| LightGBM| 0.63     | 0.42      | 0.24   | 0.31     | 0.52    |
-| SVC     | 0.64     | 0.42      | 0.12   | 0.19     | 0.55    |
+### Cluster Distribution
+| Cluster | Customers | Percentage |
+|---------|-----------|------------|
+| 0 | 303 | 50.3% |
+| 1 | 299 | 49.7% |
 
-*Note: Metrics are on the test set. Best values in **bold**.*
+## Cluster Profiles
 
-### Confusion Matrix (LightGBM)
+### Cluster 0: Beauty-Focused Shoppers (50.3%)
+- **Average Age**: 31.1 years
+- **Top Purchase Categories**:
+  1. Beauty and Personal Care (26.7%)
+  2. Clothing and Fashion (22.4%)
+  3. Multi-category purchases (20.1%)
 
-```
-              Predicted No  Predicted Yes
-Actual No          66            14
-Actual Yes         31            10
-```
+### Cluster 1: Diverse Category Shoppers (49.7%)
+- **Average Age**: 30.5 years
+- **Key Characteristics**:
+  - More diverse purchasing patterns
+  - Higher likelihood of bundled purchases
+  - Strong preference for multi-category combinations
 
-## Key Findings
+## Statistical Significance
 
-### 1. Feature Importance
+### Significant Differences (p < 0.05)
+1. **Shopping Satisfaction** (p = 9.27e-86)
+   - Strong statistical significance between clusters
+   - Indicates meaningful differences in customer satisfaction levels
 
-Top 5 most important features for predicting purchase likelihood:
+2. **Customer Reviews Importance** (p = 1.51e-51)
+   - Clusters differ in how they value customer reviews
+   - Important for review-based marketing strategies
 
-1. **shopping_satisfaction_num** (0.0517 ± 0.0278)
-2. **customer_reviews_importance_num** (0.0479 ± 0.0167)
-3. **customer_reviews_importance** (0.0475 ± 0.0133)
-4. **shopping_satisfaction** (0.0434 ± 0.0225)
-5. **personalized_recommendation_frequency_1** (0.0417 ± 0.0127)
+3. **Rating Accuracy** (p = 1.75e-51)
+   - Clusters perceive product ratings differently
+   - Impacts how ratings should be presented to each segment
 
-*Note: Importance scores are permutation-based (mean ± std). Higher values indicate more important features.*
+### Non-Significant Differences
+- **Age** (p = 0.53)
+  - Age is not a significant differentiator between clusters
+  - Segments are primarily behaviorally defined
 
-### 2. Model Comparison
+## Business Implications
 
-- **SVC** has slightly higher accuracy (0.64 vs 0.63) but **LightGBM** performs better at identifying actual buyers (higher recall).
-- Both models show moderate discrimination power (AUC ~0.52-0.55).
-- The models are better at identifying non-buyers (higher specificity) than buyers (sensitivity).
+### Marketing Recommendations
+1. **Targeted Campaigns**:
+   - Cluster 0: Focus on beauty and personal care bundles
+   - Cluster 1: Emphasize cross-category promotions
 
-### 3. Prediction Distribution
+2. **Review Strategy**:
+   - Cluster 0: Highlight top-rated products in beauty categories
+   - Cluster 1: Showcase verified purchase reviews for multiple categories
 
-From the test set predictions:
+3. **Product Recommendations**:
+   - Cluster 0: Personalized beauty product suggestions
+   - Cluster 1: "Frequently bought together" recommendations
 
-- **Class Imbalance**: The dataset shows significant class imbalance, with more non-buyers than buyers.
-- **Prediction Confidence**: The model's predicted probabilities show good separation between classes, with most predictions being confident (probabilities close to 0 or 1).
-- **Error Analysis**: The model has more false negatives than false positives, indicating it's more likely to miss actual buyers than to incorrectly label non-buyers as buyers.
+## Technical Implementation
 
-## Sample Predictions
+### Data Processing Pipeline
+1. **Preprocessing**:
+   - Handling missing values
+   - Feature scaling (StandardScaler)
+   - Categorical variable encoding
 
-| y_true | y_pred | y_prob |
-|--------|--------|--------|
-| 0      | 0      | 0.43   |
-| 0      | 1      | 0.87   |
-| 0      | 0      | 0.50   |
-| 1      | 0      | 0.41   |
-| 0      | 0      | 0.19   |
+2. **Dimensionality Reduction**:
+   - PCA for feature reduction
+   - Explained variance analysis
+
+3. **Clustering**:
+   - K-means algorithm
+   - Optimal K determination using elbow method
+   - Cluster validation using silhouette analysis
+
+### Model Artifacts
+- `outputs/kmeans.joblib`: Trained K-means model
+- `outputs/pca.joblib`: Fitted PCA transformer
+- `outputs/preprocessor_final.joblib`: Data preprocessing pipeline
 
 *Note: y_prob is the predicted probability of class 1 (buy).*
 
