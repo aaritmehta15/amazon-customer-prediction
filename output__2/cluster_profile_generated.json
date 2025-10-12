@@ -1,0 +1,430 @@
+{
+  "0": {
+    "cluster": 0,
+    "count": 303,
+    "numeric_summary": {
+      "age": {
+        "mean": 31.05280528052805,
+        "median": 26.0,
+        "std": 10.633128774486195,
+        "min": 12.0,
+        "max": 67.0
+      },
+      "personalized_recommendation_frequency_1": {
+        "mean": 3.217821782178218,
+        "median": 3.0,
+        "std": 0.8566525070307744,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "rating_accuracy": {
+        "mean": 3.174917491749175,
+        "median": 3.0,
+        "std": 0.7407919802957578,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "shopping_satisfaction": {
+        "mean": 3.155115511551155,
+        "median": 3.0,
+        "std": 0.7925764236180326,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "rating_accuracy_num": {
+        "mean": 3.174917491749175,
+        "median": 3.0,
+        "std": 0.7407919802957578,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "recommendation_helpfulness_num": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "shopping_satisfaction_num": {
+        "mean": 3.155115511551155,
+        "median": 3.0,
+        "std": 0.7925764236180326,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "saveforlater_frequency_num": {
+        "mean": 2.9768976897689767,
+        "median": 3.0,
+        "std": 1.0561053715056645,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "cart_completion_frequency_num": {
+        "mean": 2.947194719471947,
+        "median": 3.0,
+        "std": 0.8634504850334336,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "ts_year": {
+        "mean": 2023.0,
+        "median": 2023.0,
+        "std": 0.0,
+        "min": 2023.0,
+        "max": 2023.0
+      },
+      "ts_month": {
+        "mean": 6.0,
+        "median": 6.0,
+        "std": 0.0,
+        "min": 6.0,
+        "max": 6.0
+      },
+      "ts_day": {
+        "mean": 8.092409240924093,
+        "median": 8.0,
+        "std": 2.260671925296024,
+        "min": 4.0,
+        "max": 16.0
+      },
+      "ts_hour": {
+        "mean": 16.15841584158416,
+        "median": 16.0,
+        "std": 5.075716776317463,
+        "min": 0.0,
+        "max": 23.0
+      },
+      "ts_weekday": {
+        "mean": 2.4917491749174916,
+        "median": 2.0,
+        "std": 1.8995724274365369,
+        "min": 0.0,
+        "max": 6.0
+      },
+      "timestamp_topic_0": {
+        "mean": 0.1596647587681069,
+        "median": 0.0336796536674412,
+        "std": 0.24314218719648384,
+        "min": 0.027841889173084,
+        "max": 0.832644918897657
+      },
+      "timestamp_topic_1": {
+        "mean": 0.16847094904229176,
+        "median": 0.0339477828807549,
+        "std": 0.24740007702886183,
+        "min": 0.0278594376517493,
+        "max": 0.8605151631068977
+      },
+      "timestamp_topic_2": {
+        "mean": 0.2198890298421569,
+        "median": 0.0340235903085396,
+        "std": 0.29476078317938864,
+        "min": 0.0278425822189953,
+        "max": 0.860476337431833
+      },
+      "timestamp_topic_3": {
+        "mean": 0.18200418675702262,
+        "median": 0.0337915511280558,
+        "std": 0.27617585869211686,
+        "min": 0.0278339361913774,
+        "max": 0.8602326284972822
+      },
+      "timestamp_topic_4": {
+        "mean": 0.15113114025336097,
+        "median": 0.033632292277207,
+        "std": 0.24414166682544775,
+        "min": 0.0278368055362928,
+        "max": 0.8603273969097641
+      },
+      "timestamp_topic_5": {
+        "mean": 0.1188399353370606,
+        "median": 0.0335540552870892,
+        "std": 0.21069980946907677,
+        "min": 0.0278473195713361,
+        "max": 0.860302948315086
+      },
+      "purchase_categories_topic_0": {
+        "mean": 0.31185619077327,
+        "median": 0.1801228724025039,
+        "std": 0.23690642421651634,
+        "min": 0.0868156385412483,
+        "max": 0.9165157481572956
+      },
+      "purchase_categories_topic_1": {
+        "mean": 0.68814380922673,
+        "median": 0.8198771275974961,
+        "std": 0.23690642421651614,
+        "min": 0.0834842518427043,
+        "max": 0.9131843614587516
+      },
+      "cart_abandonment_factors_topic_0": {
+        "mean": 0.5193894239173752,
+        "median": 0.5,
+        "std": 0.3652192471467176,
+        "min": 0.1250428283408851,
+        "max": 0.9166431756145148
+      },
+      "cart_abandonment_factors_topic_1": {
+        "mean": 0.48061057608262475,
+        "median": 0.5,
+        "std": 0.36521924714671683,
+        "min": 0.083356824385485,
+        "max": 0.8749571716591149
+      },
+      "cluster_kmeans": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "cluster_dbscan": {
+        "mean": -1.0,
+        "median": -1.0,
+        "std": 0.0,
+        "min": -1.0,
+        "max": -1.0
+      },
+      "cluster_agg": {
+        "mean": 0.052805280528052806,
+        "median": 0.0,
+        "std": 0.22401451223944738,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "cluster_gmm": {
+        "mean": 0.3201320132013201,
+        "median": 0.0,
+        "std": 0.46729882777013204,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "top_categorical": {
+      "timestamp": "2023/06/04 10:13:28 PM GMT+5:30",
+      "gender": "Female",
+      "purchase_frequency": "Few times a month",
+      "purchase_categories": "Beauty and Personal Care",
+      "personalized_recommendation_frequency": "Sometimes",
+      "browsing_frequency": "Few times a week",
+      "product_search_method": "categories",
+      "search_result_exploration": "Multiple pages",
+      "add_to_cart_browsing": "Maybe",
+      "cart_completion_frequency": "Sometimes"
+    }
+  },
+  "1": {
+    "cluster": 1,
+    "count": 299,
+    "numeric_summary": {
+      "age": {
+        "mean": 30.525083612040135,
+        "median": 27.0,
+        "std": 9.737935553045487,
+        "min": 3.0,
+        "max": 64.0
+      },
+      "personalized_recommendation_frequency_1": {
+        "mean": 2.1739130434782608,
+        "median": 2.0,
+        "std": 0.9464815128454194,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "rating_accuracy": {
+        "mean": 2.1638795986622075,
+        "median": 2.0,
+        "std": 0.7485330164595541,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "shopping_satisfaction": {
+        "mean": 1.7625418060200668,
+        "median": 2.0,
+        "std": 0.670921604526854,
+        "min": 1.0,
+        "max": 4.0
+      },
+      "rating_accuracy_num": {
+        "mean": 2.1638795986622075,
+        "median": 2.0,
+        "std": 0.7485330164595541,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "recommendation_helpfulness_num": {
+        "mean": 3.0,
+        "median": 3.0,
+        "std": 0.0,
+        "min": 3.0,
+        "max": 3.0
+      },
+      "shopping_satisfaction_num": {
+        "mean": 1.7625418060200668,
+        "median": 2.0,
+        "std": 0.670921604526854,
+        "min": 1.0,
+        "max": 4.0
+      },
+      "saveforlater_frequency_num": {
+        "mean": 3.237458193979933,
+        "median": 3.0,
+        "std": 1.0620678643166694,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "cart_completion_frequency_num": {
+        "mean": 3.5150501672240804,
+        "median": 3.0,
+        "std": 0.8124085374385176,
+        "min": 1.0,
+        "max": 5.0
+      },
+      "ts_year": {
+        "mean": 2023.0,
+        "median": 2023.0,
+        "std": 0.0,
+        "min": 2023.0,
+        "max": 2023.0
+      },
+      "ts_month": {
+        "mean": 6.0,
+        "median": 6.0,
+        "std": 0.0,
+        "min": 6.0,
+        "max": 6.0
+      },
+      "ts_day": {
+        "mean": 7.224080267558528,
+        "median": 7.0,
+        "std": 2.0083605638951725,
+        "min": 4.0,
+        "max": 12.0
+      },
+      "ts_hour": {
+        "mean": 16.377926421404684,
+        "median": 17.0,
+        "std": 5.280804263785998,
+        "min": 0.0,
+        "max": 23.0
+      },
+      "ts_weekday": {
+        "mean": 2.879598662207358,
+        "median": 3.0,
+        "std": 1.9794799261383738,
+        "min": 0.0,
+        "max": 6.0
+      },
+      "timestamp_topic_0": {
+        "mean": 0.1821009670676907,
+        "median": 0.0337975192825519,
+        "std": 0.262769288583508,
+        "min": 0.0278413596196104,
+        "max": 0.8326448673473801
+      },
+      "timestamp_topic_1": {
+        "mean": 0.17362414270332388,
+        "median": 0.033736395920829,
+        "std": 0.2682205704223986,
+        "min": 0.0278817996980955,
+        "max": 0.8605239325267956
+      },
+      "timestamp_topic_2": {
+        "mean": 0.17010133983848333,
+        "median": 0.0338036778776975,
+        "std": 0.25203660505916226,
+        "min": 0.0278425730871139,
+        "max": 0.860697547825518
+      },
+      "timestamp_topic_3": {
+        "mean": 0.17161494521511872,
+        "median": 0.0338590079422393,
+        "std": 0.25760348656721765,
+        "min": 0.0278339284457956,
+        "max": 0.8325803133921152
+      },
+      "timestamp_topic_4": {
+        "mean": 0.172395795392947,
+        "median": 0.0338935186205823,
+        "std": 0.26228802800395923,
+        "min": 0.0278368300474472,
+        "max": 0.8604088111977146
+      },
+      "timestamp_topic_5": {
+        "mean": 0.1301628097824361,
+        "median": 0.0335878971840718,
+        "std": 0.21665295702146414,
+        "min": 0.0278535345974038,
+        "max": 0.8604793732845348
+      },
+      "purchase_categories_topic_0": {
+        "mean": 0.4206314535854516,
+        "median": 0.4322740400109385,
+        "std": 0.2558228681166863,
+        "min": 0.0868156385412483,
+        "max": 0.9165157481572956
+      },
+      "purchase_categories_topic_1": {
+        "mean": 0.5793685464145484,
+        "median": 0.5677259599890614,
+        "std": 0.25582286811668603,
+        "min": 0.0834842518427043,
+        "max": 0.9131843614587516
+      },
+      "cart_abandonment_factors_topic_0": {
+        "mean": 0.444123858487503,
+        "median": 0.1666824542265414,
+        "std": 0.3602663907315415,
+        "min": 0.1250428283408851,
+        "max": 0.9166431756145148
+      },
+      "cart_abandonment_factors_topic_1": {
+        "mean": 0.555876141512497,
+        "median": 0.8333175457734585,
+        "std": 0.36026639073154165,
+        "min": 0.083356824385485,
+        "max": 0.8749571716591149
+      },
+      "cluster_kmeans": {
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "cluster_dbscan": {
+        "mean": -1.0,
+        "median": -1.0,
+        "std": 0.0,
+        "min": -1.0,
+        "max": -1.0
+      },
+      "cluster_agg": {
+        "mean": 0.3076923076923077,
+        "median": 0.0,
+        "std": 0.46231220635916814,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "cluster_gmm": {
+        "mean": 0.725752508361204,
+        "median": 1.0,
+        "std": 0.4468822108278935,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "top_categorical": {
+      "timestamp": "2023/06/07 11:47:44 AM GMT+5:30",
+      "gender": "Female",
+      "purchase_frequency": "Few times a month",
+      "purchase_categories": "Clothing and Fashion",
+      "personalized_recommendation_frequency": "No",
+      "browsing_frequency": "Few times a week",
+      "product_search_method": "Keyword",
+      "search_result_exploration": "Multiple pages",
+      "add_to_cart_browsing": "Yes",
+      "cart_completion_frequency": "Sometimes"
+    }
+  }
+}
